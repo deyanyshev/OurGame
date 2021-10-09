@@ -1,0 +1,1219 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.14f1 (d0d1bb862f9d) revision 13685179'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 19042.1110; Version 2009; 64bit' Language: 'ru' Physical Memory: 3930 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Deals/OurGame/Game
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+64293
+Successfully changed project path to: C:/Deals/OurGame/Game
+C:/Deals/OurGame/Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 79.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Deals/OurGame/Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     1965 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005466 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 120.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.054 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6055ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1454ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (481ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (123ms)
+			SetupLoadedEditorAssemblies (624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.018681 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.751 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6769ms)
+		BeginReloadAssembly (493ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (6084ms)
+			LoadAssemblies (3774ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (927ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (1002ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (253ms)
+				ProcessInitializeOnLoadAttributes (701ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.9 MB.
+System memory in use after: 65.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1825.
+Total: 4.862900 ms (FindLiveObjects: 0.303300 ms CreateObjectMapping: 0.097700 ms MarkObjects: 4.275200 ms  DeleteObjects: 0.184100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(db8e7b93afa536b43ac47ba0235054b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(db8e7b93afa536b43ac47ba0235054b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9356b461f6914c2841f883faefab746') in 0.023209 seconds 
+  Import took 0.029685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba5733a92122aae7ac05ce2e3b60bf8') in 0.031298 seconds 
+  Import took 0.037396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.316509 seconds.
+  path: Assets/Scenes/Start.unity
+  artifactKey: Guid(ac5f2b7ae0f23b144b2f3cd12c237bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start.unity using Guid(ac5f2b7ae0f23b144b2f3cd12c237bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73fb3493ac070aeebf39f131f690d21') in 0.028349 seconds 
+  Import took 0.037172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.800210 seconds.
+  path: Assets/Scenes/SampleSceneSettings.lighting
+  artifactKey: Guid(f63a831ca4592cb4dbdf673102d35c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleSceneSettings.lighting using Guid(f63a831ca4592cb4dbdf673102d35c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d62c3bd5fdb59d223291efd2111474') in 0.094291 seconds 
+  Import took 0.099899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.426050 seconds.
+  path: Assets/Scenes/NewBehaviourScript.cs
+  artifactKey: Guid(04d631a420c63c34d8f6e8a139cb93ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewBehaviourScript.cs using Guid(04d631a420c63c34d8f6e8a139cb93ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53cd029cd83db1026c14caaecae635f') in 0.058556 seconds 
+  Import took 0.066093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3136.254299 seconds.
+  path: Assets/TWD
+  artifactKey: Guid(ca7e5a32d4da7b8479a0a5a76ed15e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD using Guid(ca7e5a32d4da7b8479a0a5a76ed15e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aceb6f490738af98bd85e871adc32b2') in 0.047997 seconds 
+  Import took 0.151401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002599 seconds.
+  path: Assets/TWD/background.png
+  artifactKey: Guid(a093780a76b8e8c4c8b121e123d21a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/background.png using Guid(a093780a76b8e8c4c8b121e123d21a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64cf800fc0e82d51f845e3a71bb8c14') in 1.189027 seconds 
+  Import took 1.195506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.812356 seconds.
+  path: Assets/TWD/FreeButtonSet
+  artifactKey: Guid(3cb77df91ed7c5a49a6308febca90db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet using Guid(3cb77df91ed7c5a49a6308febca90db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c897843b376286cbb2efa922b58f1f') in 0.021403 seconds 
+  Import took 0.029085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.203730 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures
+  artifactKey: Guid(01430914042f894489285ea62a14b761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures using Guid(01430914042f894489285ea62a14b761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc54fab401aa76d551ae49309d3c6e63') in 0.024233 seconds 
+  Import took 0.030865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.032329 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/other
+  artifactKey: Guid(3b742833a60b6f945bb6f9390dd51677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/other using Guid(3b742833a60b6f945bb6f9390dd51677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4678f115145c94fa205801854bb7bf29') in 0.028067 seconds 
+  Import took 0.036231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.163818 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/other/universal_panel_10.png
+  artifactKey: Guid(3973caf801ba6864d98890213e90590b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/other/universal_panel_10.png using Guid(3973caf801ba6864d98890213e90590b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1243a171c602b6ec2b2f2f80314ce43a') in 0.058997 seconds 
+  Import took 0.069427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/other/universal_panel_30.png
+  artifactKey: Guid(0b6605e33662e954eb4ff8943ef1c809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/other/universal_panel_30.png using Guid(0b6605e33662e954eb4ff8943ef1c809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6210c6e54240fee142a9babaa7a994c') in 0.065520 seconds 
+  Import took 0.072876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/other/universal_panel_10.png
+  artifactKey: Guid(3973caf801ba6864d98890213e90590b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/other/universal_panel_10.png using Guid(3973caf801ba6864d98890213e90590b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1243a171c602b6ec2b2f2f80314ce43a') in 0.150243 seconds 
+  Import took 0.171903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001553 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/other/universal_panel_40.png
+  artifactKey: Guid(8174901dff2facb4583e976f866ae424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/other/universal_panel_40.png using Guid(8174901dff2facb4583e976f866ae424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14237deaee9989628d2c26371cc1a06') in 0.111750 seconds 
+  Import took 0.122653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/other/universal_panel_20.png
+  artifactKey: Guid(953de0a59c3f3c7498ecb7496a450d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/other/universal_panel_20.png using Guid(953de0a59c3f3c7498ecb7496a450d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a74439fc8a805541ec090e6673bad7') in 0.093789 seconds 
+  Import took 0.101670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.273309 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons
+  artifactKey: Guid(e98f256333208ad448195894c25efd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons using Guid(e98f256333208ad448195894c25efd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808385d694fe3e369659bc5ad81b505e') in 0.019461 seconds 
+  Import took 0.025096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.640302 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32
+  artifactKey: Guid(b8e47262f9f19e943a739a680fc9b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32 using Guid(b8e47262f9f19e943a739a680fc9b2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257a9a7a3e7664a882046e643cd4774b') in 0.016037 seconds 
+  Import took 0.020044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.136455 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/arrow_down.png
+  artifactKey: Guid(ca6ff084116929e41a747403f15f808e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/arrow_down.png using Guid(ca6ff084116929e41a747403f15f808e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2763c8d62fb1d60f6b001bc6dd8f21') in 0.043517 seconds 
+  Import took 0.051357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000609 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/plus.png
+  artifactKey: Guid(f1d2732960a12434a91c2cba94b04cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/plus.png using Guid(f1d2732960a12434a91c2cba94b04cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1de9f00255e9cf3514368a91a65f1eb') in 0.073533 seconds 
+  Import took 0.082158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/repeat.png
+  artifactKey: Guid(adb9df14921d3844ba1a07fdb2766d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/repeat.png using Guid(adb9df14921d3844ba1a07fdb2766d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee79de40e72ef54cb7854f67f3ba6ec') in 0.229408 seconds 
+  Import took 0.237929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000674 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/arrow_up.png
+  artifactKey: Guid(e79549f1ff9d02e49aec7ac82e66592a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/arrow_up.png using Guid(e79549f1ff9d02e49aec7ac82e66592a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bb4e9e17a1e3883ff306fe8f3c15c3') in 0.089951 seconds 
+  Import took 0.097719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/arrow_right.png
+  artifactKey: Guid(23772e19474d2c443b3be8361065a7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/arrow_right.png using Guid(23772e19474d2c443b3be8361065a7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9e200663b24d8e61accbbffd2536ca') in 0.085980 seconds 
+  Import took 0.093124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/settings.png
+  artifactKey: Guid(3d29037700e86324989943cee8d473db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/settings.png using Guid(3d29037700e86324989943cee8d473db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2115bfcb6bb08d3e5a62a74d2cd16f09') in 0.095193 seconds 
+  Import took 0.107978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/minus.png
+  artifactKey: Guid(a13a11ae513fbe544ad52acf42a1eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/minus.png using Guid(a13a11ae513fbe544ad52acf42a1eaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41391051dbe5016d116f7157f954d339') in 0.088156 seconds 
+  Import took 0.092467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/arrow_left.png
+  artifactKey: Guid(41bc5d0324757c7439b419ae5397a50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/arrow_left.png using Guid(41bc5d0324757c7439b419ae5397a50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbf13de68ac8195900e56d60293b57b') in 0.090628 seconds 
+  Import took 0.100267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002416 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/info.png
+  artifactKey: Guid(43582e3299335f14fb912e3fbc60e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/info.png using Guid(43582e3299335f14fb912e3fbc60e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1221380400a5014dfa4b1c11104966d') in 0.096463 seconds 
+  Import took 0.103798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/share.png
+  artifactKey: Guid(f93fb28de2f7a5f4aa6babd1576b7828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/share.png using Guid(f93fb28de2f7a5f4aa6babd1576b7828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740cea2ad213db265c1fdf995126bf5d') in 0.070082 seconds 
+  Import took 0.080885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000641 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/user.png
+  artifactKey: Guid(cf47eab53a70c424aad053f375a5f2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/user.png using Guid(cf47eab53a70c424aad053f375a5f2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8071038b5b0b87354a4096c61508eae1') in 0.036681 seconds 
+  Import took 0.044025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/pause.png
+  artifactKey: Guid(8eb9669081de23044bab500123db153d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/pause.png using Guid(8eb9669081de23044bab500123db153d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ae721a327e14dc290e643427d307f5') in 0.077795 seconds 
+  Import took 0.084190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/star.png
+  artifactKey: Guid(12451ffac05266542a4ec30187af9b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/star.png using Guid(12451ffac05266542a4ec30187af9b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41df01322b9dd95a810222304228cead') in 0.092725 seconds 
+  Import took 0.103952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002227 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/message.png
+  artifactKey: Guid(858e29a9128a19c4182ce8b02b9c6683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/message.png using Guid(858e29a9128a19c4182ce8b02b9c6683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad04f54d16dd5a12a0e44c183423ee0') in 0.046987 seconds 
+  Import took 0.066385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001646 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/menu.png
+  artifactKey: Guid(873fef88362100240875f61cefb4a8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/menu.png using Guid(873fef88362100240875f61cefb4a8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe256d0d67211335201d5ef2bf76014') in 0.069402 seconds 
+  Import took 0.081303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/play.png
+  artifactKey: Guid(77e80d9dad76e74469ce748b77cdbe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/play.png using Guid(77e80d9dad76e74469ce748b77cdbe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005ccc831099f41683e5ac7be8bf5e14') in 0.116825 seconds 
+  Import took 0.127322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/speaker.png
+  artifactKey: Guid(967aab30d466613409c60a93eee109b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/speaker.png using Guid(967aab30d466613409c60a93eee109b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68725f65741e1f57a778848e2ec5ca48') in 0.035812 seconds 
+  Import took 0.043357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/help.png
+  artifactKey: Guid(17616644aaeac474888ce77a1e464cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/help.png using Guid(17616644aaeac474888ce77a1e464cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2699dfbd1e96f7aefad1c213e466fd8') in 0.081954 seconds 
+  Import took 0.090372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006811 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/x.png
+  artifactKey: Guid(9aeac1c0750d43d498b7e62859763888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/x.png using Guid(9aeac1c0750d43d498b7e62859763888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8dcd17b5689763dda3702bd6dd046f') in 0.066434 seconds 
+  Import took 0.080114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001589 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/checkmark.png
+  artifactKey: Guid(433f891bf38fed24d91d68c15aae515d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/checkmark.png using Guid(433f891bf38fed24d91d68c15aae515d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e919ea913396dcb2ca4ec9de5aed66') in 0.077426 seconds 
+  Import took 0.086358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/32x32/heart.png
+  artifactKey: Guid(387454f6cd7cc5047bc289d606b175b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/32x32/heart.png using Guid(387454f6cd7cc5047bc289d606b175b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fed5eb8e1cd8d288f59c98daee3c212') in 0.081447 seconds 
+  Import took 0.097135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.356427 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons
+  artifactKey: Guid(b0edb74aa1bc1bb468ece3102f026e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons using Guid(b0edb74aa1bc1bb468ece3102f026e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b579426b8795c354862df558186718a5') in 0.015100 seconds 
+  Import took 0.020108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091630 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_50.png
+  artifactKey: Guid(a24331652574b3e479d00a8c0c41d820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_50.png using Guid(a24331652574b3e479d00a8c0c41d820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d0fd67832f874cec0c71b64f1b1c82') in 0.074815 seconds 
+  Import took 0.082087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000671 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_200.png
+  artifactKey: Guid(970d574d72d68e744b59382781515142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_200.png using Guid(970d574d72d68e744b59382781515142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1765e4fb42d47ac2ad33f645fa338d') in 0.117436 seconds 
+  Import took 0.123755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_50_down.png
+  artifactKey: Guid(9250aeb511890d54abc18d44c5aefcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_50_down.png using Guid(9250aeb511890d54abc18d44c5aefcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45dc30f9dcf6410df36e953b9d6511c3') in 0.092401 seconds 
+  Import took 0.098898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_100_down.png
+  artifactKey: Guid(d22f8acbaa109064f9367669c5824b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_100_down.png using Guid(d22f8acbaa109064f9367669c5824b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ae0949d348b1c9927a5903b7371e7c') in 0.083012 seconds 
+  Import took 0.092634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_100_hover.png
+  artifactKey: Guid(1dbaad69cbe7fa04199636488c2d68bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_100_hover.png using Guid(1dbaad69cbe7fa04199636488c2d68bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca33206578094f3c8e3b179ed22f076') in 0.113019 seconds 
+  Import took 0.118366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000821 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_200_inactive.png
+  artifactKey: Guid(691e40e3ae6c416488a007da9c5e389c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_200_inactive.png using Guid(691e40e3ae6c416488a007da9c5e389c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d31206d090531623dc6c6f27046581') in 0.091588 seconds 
+  Import took 0.096876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_100.png
+  artifactKey: Guid(de104d32a95556349875721f3a1b1e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_100.png using Guid(de104d32a95556349875721f3a1b1e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb593c5593f0c81af1b00874d1a7221') in 0.081490 seconds 
+  Import took 0.086695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_200_down.png
+  artifactKey: Guid(ed169c7ef182f0e44a5d758e6a61410d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_200_down.png using Guid(ed169c7ef182f0e44a5d758e6a61410d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3cbec68aee8476c149381ed2d79e112') in 0.089552 seconds 
+  Import took 0.094751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_100_inactive.png
+  artifactKey: Guid(4c451a92bf2ef6c418771224768fd42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_100_inactive.png using Guid(4c451a92bf2ef6c418771224768fd42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc43df8782d25a99d455e0cb949381e0') in 0.077834 seconds 
+  Import took 0.083553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_150.png
+  artifactKey: Guid(f680687cc53f0cb43b61762b1de77fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_150.png using Guid(f680687cc53f0cb43b61762b1de77fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fe3f3652cc3686f46f884563b3ae14') in 0.090185 seconds 
+  Import took 0.096013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_200_hover.png
+  artifactKey: Guid(f3a7a5cda7b04f24794559ce75cc2fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_200_hover.png using Guid(f3a7a5cda7b04f24794559ce75cc2fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a27a79a3c991577a70b705181f11d37') in 0.077359 seconds 
+  Import took 0.084087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000736 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_50_hover.png
+  artifactKey: Guid(c49dec645e591114caac11d081103cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_50_hover.png using Guid(c49dec645e591114caac11d081103cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19adecfec6497c81fa7c559a6d6a1b2b') in 0.040977 seconds 
+  Import took 0.048246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002326 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_150_inactive.png
+  artifactKey: Guid(6a4f3f9bc674f824e9d0b609b3f53406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_150_inactive.png using Guid(6a4f3f9bc674f824e9d0b609b3f53406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb7ee671b2e21bebddc9d78075b8f64') in 0.123748 seconds 
+  Import took 0.136163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_150_down.png
+  artifactKey: Guid(bc559aafa1560b9478223609bf8884e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_150_down.png using Guid(bc559aafa1560b9478223609bf8884e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495637abc67fda157e6ae0a4e79e82ab') in 0.090417 seconds 
+  Import took 0.097411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_50_inactive.png
+  artifactKey: Guid(90ca0b8e4e2f83a4cb7a8a6ae761bce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_50_inactive.png using Guid(90ca0b8e4e2f83a4cb7a8a6ae761bce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844cc9f5d25b1dfb98b4af9884466975') in 0.080936 seconds 
+  Import took 0.086712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_150_hover.png
+  artifactKey: Guid(c183190c738936749a522264b2b7c43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_150_hover.png using Guid(c183190c738936749a522264b2b7c43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b767d462071c9f519fe02d7048c1d6') in 0.100233 seconds 
+  Import took 0.106801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_50_inactive.png
+  artifactKey: Guid(90ca0b8e4e2f83a4cb7a8a6ae761bce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_50_inactive.png using Guid(90ca0b8e4e2f83a4cb7a8a6ae761bce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844cc9f5d25b1dfb98b4af9884466975') in 0.020222 seconds 
+  Import took 0.032049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.634695 seconds.
+  path: Assets/TWD/FreeButtonSet/Fonts
+  artifactKey: Guid(2dfc05083f06ebb45b2445a5f1dc41b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Fonts using Guid(2dfc05083f06ebb45b2445a5f1dc41b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8612e165faceacb8595ef249a2b9be58') in 0.017170 seconds 
+  Import took 0.023272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.162264 seconds.
+  path: Assets/TWD/FreeButtonSet/Fonts/Poppins-Bold.ttf
+  artifactKey: Guid(f4c99a340a6e6504aa6e992b7a253612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Fonts/Poppins-Bold.ttf using Guid(f4c99a340a6e6504aa6e992b7a253612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d533e0040bf4ee4bd8199e9a6428fe') in 0.441341 seconds 
+  Import took 0.448729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/TWD/FreeButtonSet/Fonts/Poppins-MediumItalic.ttf
+  artifactKey: Guid(d1fe0bc1ac9782f4c8f875e1a7cea6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Fonts/Poppins-MediumItalic.ttf using Guid(d1fe0bc1ac9782f4c8f875e1a7cea6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b694da8c088caa5db103295efee9f7c1') in 0.198627 seconds 
+  Import took 0.207541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.779484 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256
+  artifactKey: Guid(13f9659e51a2cf649968c96c521afd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256 using Guid(13f9659e51a2cf649968c96c521afd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5839d80ff08cbc4646a3592fd56f61') in 0.021245 seconds 
+  Import took 0.029108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.150756 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/arrow_down.png
+  artifactKey: Guid(8e23a03b070b02343ae289c317c04cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/arrow_down.png using Guid(8e23a03b070b02343ae289c317c04cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea041d308f8dd50f7d94f8237316c69') in 0.084389 seconds 
+  Import took 0.097647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000670 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/plus.png
+  artifactKey: Guid(aeb77d0c2986cd448a51409c56ad0aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/plus.png using Guid(aeb77d0c2986cd448a51409c56ad0aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc7bd34a2368e028e6dffaf920ea6ff') in 0.103712 seconds 
+  Import took 0.111745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/speaker.png
+  artifactKey: Guid(139c4181e893555468a02df6e9fa5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/speaker.png using Guid(139c4181e893555468a02df6e9fa5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbfb6c30895afa09ee5f13bf39c4340') in 0.097255 seconds 
+  Import took 0.102418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/help.png
+  artifactKey: Guid(a1d9cb3eb505c114d8fa17fcbaeb157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/help.png using Guid(a1d9cb3eb505c114d8fa17fcbaeb157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44b0f246115aae33fbf0e0eb059ee14') in 0.090280 seconds 
+  Import took 0.094756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/message.png
+  artifactKey: Guid(d86ebf4784f9d664eaa8c05a23b31f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/message.png using Guid(d86ebf4784f9d664eaa8c05a23b31f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad4a758f1c8eda4fb0d7f6bfe67b7fe') in 0.084285 seconds 
+  Import took 0.090715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/x.png
+  artifactKey: Guid(e839e6693c344ad40a5952853a891866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/x.png using Guid(e839e6693c344ad40a5952853a891866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826d21f31d366d2a8470d893b1b9a6e8') in 0.087560 seconds 
+  Import took 0.094315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/menu.png
+  artifactKey: Guid(508b7276e5631294ab35b053b5a7775c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/menu.png using Guid(508b7276e5631294ab35b053b5a7775c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d22d932ab67bd98f027ced0c434e5b5') in 0.080616 seconds 
+  Import took 0.086175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/minus.png
+  artifactKey: Guid(6d3df38cd65ff494387432fd56427bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/minus.png using Guid(6d3df38cd65ff494387432fd56427bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd349a35d503ae71a5f30b3b8ee42a6') in 0.032116 seconds 
+  Import took 0.039872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/checkmark.png
+  artifactKey: Guid(9cd6991b040b7fb40808e500b041d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/checkmark.png using Guid(9cd6991b040b7fb40808e500b041d545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c251fd68438f320cc97f9b7db89c8a') in 0.080908 seconds 
+  Import took 0.088354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/arrow_left.png
+  artifactKey: Guid(98d20fe739e52024d8acf8e32bf24b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/arrow_left.png using Guid(98d20fe739e52024d8acf8e32bf24b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2abf2fafd186241feb12565533affbe') in 0.080494 seconds 
+  Import took 0.088147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/settings.png
+  artifactKey: Guid(29cd5fa083a9a4d448c49c770629f19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/settings.png using Guid(29cd5fa083a9a4d448c49c770629f19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4048684eff2e576b25090eb2337d28') in 0.106193 seconds 
+  Import took 0.122890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002919 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/pause.png
+  artifactKey: Guid(39af0f365e48844429e5e9144564e40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/pause.png using Guid(39af0f365e48844429e5e9144564e40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547413d4da390704ca2d3bd5ed313504') in 0.053118 seconds 
+  Import took 0.069018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000930 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/star.png
+  artifactKey: Guid(b6a757f6793cb0148a905bea74154284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/star.png using Guid(b6a757f6793cb0148a905bea74154284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cccceb1452a8a99768227640cebb5f') in 0.062314 seconds 
+  Import took 0.080495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/arrow_up.png
+  artifactKey: Guid(a1e642ac4188cf544b455c79870d43f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/arrow_up.png using Guid(a1e642ac4188cf544b455c79870d43f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e70ea14399c5b53a0a334c01c5c7db1') in 0.072930 seconds 
+  Import took 0.083451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/info.png
+  artifactKey: Guid(c3262ee5be33f7e4c8056e8e20b6bdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/info.png using Guid(c3262ee5be33f7e4c8056e8e20b6bdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43ef8ec44d1751a5b4ee4103783da9a') in 0.093339 seconds 
+  Import took 0.108637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000954 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/repeat.png
+  artifactKey: Guid(477e16ce3d75d124c8bd76f95fa08730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/repeat.png using Guid(477e16ce3d75d124c8bd76f95fa08730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86474e2c7549d4369a37ed576543aa7a') in 0.051607 seconds 
+  Import took 0.117617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002721 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/user.png
+  artifactKey: Guid(c78d369807d13294aa60a37e1092dc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/user.png using Guid(c78d369807d13294aa60a37e1092dc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9baa0d058cc5e4e902934cd676dd4009') in 0.102545 seconds 
+  Import took 0.116001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/arrow_right.png
+  artifactKey: Guid(841ae3188ba4d9746ba4f4ed86597a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/arrow_right.png using Guid(841ae3188ba4d9746ba4f4ed86597a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40be58690e4abab8d5a0d924285b56ef') in 0.098286 seconds 
+  Import took 0.104442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/play.png
+  artifactKey: Guid(c398922a20f2f984db55718ac2c394f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/play.png using Guid(c398922a20f2f984db55718ac2c394f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e09fe37b1121dd581d2c5aad3f43ec') in 0.089772 seconds 
+  Import took 0.097456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/share.png
+  artifactKey: Guid(f241ab6632e1cb04698e1686dcdb8981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/share.png using Guid(f241ab6632e1cb04698e1686dcdb8981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898c04e80225d5aad644df8a4708ad18') in 0.086606 seconds 
+  Import took 0.094846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/256x256/heart.png
+  artifactKey: Guid(1f9a4714dfc315d48b8e91e5453067ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/256x256/heart.png using Guid(1f9a4714dfc315d48b8e91e5453067ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62691e35bb0920f1c02f9e89b4f3560') in 0.097419 seconds 
+  Import took 0.103247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 394.741613 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_50_down.png
+  artifactKey: Guid(9250aeb511890d54abc18d44c5aefcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_50_down.png using Guid(9250aeb511890d54abc18d44c5aefcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6489fda95320549fbe72e4c1387a4db8') in 0.229170 seconds 
+  Import took 0.329988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.515748 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_50_down.png
+  artifactKey: Guid(9250aeb511890d54abc18d44c5aefcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_50_down.png using Guid(9250aeb511890d54abc18d44c5aefcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a535ae2b397aea0bbb5b5ee5d9338f99') in 0.030752 seconds 
+  Import took 0.044420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.779171 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/buttons/button_50_down.png
+  artifactKey: Guid(9250aeb511890d54abc18d44c5aefcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/buttons/button_50_down.png using Guid(9250aeb511890d54abc18d44c5aefcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d39408aa059c0b900c716bd46ca5cca') in 0.126352 seconds 
+  Import took 0.135118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 174.930863 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/info.png
+  artifactKey: Guid(e06eebf644bc5c84cb5d23b9d62ee3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/info.png using Guid(e06eebf644bc5c84cb5d23b9d62ee3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f37f5d123710fe93c7ace6f56f9c8a4') in 0.099681 seconds 
+  Import took 0.131190 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.334282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.460 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4470ms)
+		BeginReloadAssembly (1034ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (78ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (598ms)
+		EndReloadAssembly (3228ms)
+			LoadAssemblies (297ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1026ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (175ms)
+			SetupLoadedEditorAssemblies (925ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (266ms)
+				ProcessInitializeOnLoadAttributes (600ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.4 MB.
+System memory in use after: 68.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1888.
+Total: 8.201800 ms (FindLiveObjects: 0.698300 ms CreateObjectMapping: 0.211700 ms MarkObjects: 7.006400 ms  DeleteObjects: 0.282000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1029.018508 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/checkmark.png
+  artifactKey: Guid(874b343cf51efe745b644be33893b09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/checkmark.png using Guid(874b343cf51efe745b644be33893b09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f7b904c4b61782b08c84410680203a') in 0.144526 seconds 
+  Import took 0.151976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.028272 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/minus.png
+  artifactKey: Guid(8d3f1901246a92d4e9ba3f2a8b1c1c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/minus.png using Guid(8d3f1901246a92d4e9ba3f2a8b1c1c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb663d1db6dd1d8bb784a562ac7c76a9') in 0.038014 seconds 
+  Import took 0.043874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/settings.png
+  artifactKey: Guid(19b2b02a9feef8b4fa2f431692a804b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/settings.png using Guid(19b2b02a9feef8b4fa2f431692a804b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f988d7c0a98a31aeb6d3167b154f59') in 0.044371 seconds 
+  Import took 0.051972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/minus.png
+  artifactKey: Guid(120af17437d75844d8f6be3a85cdeb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/minus.png using Guid(120af17437d75844d8f6be3a85cdeb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4594c34ffa78663cc2a10663723edf') in 0.031854 seconds 
+  Import took 0.044211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/settings.png
+  artifactKey: Guid(15c763ef71e34a044933912d647cc1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/settings.png using Guid(15c763ef71e34a044933912d647cc1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744a4571eeb392cf960030450e012a8a') in 0.035988 seconds 
+  Import took 0.041990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.523272 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128
+  artifactKey: Guid(210d51586277b6e4c879d1e8d43cfa53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128 using Guid(210d51586277b6e4c879d1e8d43cfa53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7181b00934a6f76e9a074e6df7855521') in 0.020053 seconds 
+  Import took 0.026232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085925 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/arrow_down.png
+  artifactKey: Guid(e968566a79d16394f97ee27c34c6ac78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/arrow_down.png using Guid(e968566a79d16394f97ee27c34c6ac78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20090da72f5fa3c759775ed14a737b5c') in 0.041914 seconds 
+  Import took 0.050550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/info.png
+  artifactKey: Guid(ff8b06e19a717d14d9ff2546436de761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/info.png using Guid(ff8b06e19a717d14d9ff2546436de761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55467d7f7ddb25d5c9b7e0f7e7309c8') in 0.041915 seconds 
+  Import took 0.046859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/repeat.png
+  artifactKey: Guid(0ac274da743a5ab49a17c782a85c7f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/repeat.png using Guid(0ac274da743a5ab49a17c782a85c7f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9412d22edfb141a84132c8b771b87569') in 0.042110 seconds 
+  Import took 0.048650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/arrow_up.png
+  artifactKey: Guid(9e197a1515abdbc4b91281eee95e8b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/arrow_up.png using Guid(9e197a1515abdbc4b91281eee95e8b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0201cadd3d89f36a23cd1351136a7d0f') in 0.043944 seconds 
+  Import took 0.051295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000690 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/message.png
+  artifactKey: Guid(bddaa0bb0da741940878ee1c42248a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/message.png using Guid(bddaa0bb0da741940878ee1c42248a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de2461856e19d9a0d7b2962a42efd4b') in 0.042002 seconds 
+  Import took 0.050205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/arrow_left.png
+  artifactKey: Guid(d31115fa9cb67004b96bc76f48802b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/arrow_left.png using Guid(d31115fa9cb67004b96bc76f48802b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956f622aa189991a350f5f06e199a0ea') in 0.039604 seconds 
+  Import took 0.044665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/star.png
+  artifactKey: Guid(c45822dd0d148ae4c80084e497c39961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/star.png using Guid(c45822dd0d148ae4c80084e497c39961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e3085ac4684ec13d02b1576ea16780') in 0.032615 seconds 
+  Import took 0.039150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/heart.png
+  artifactKey: Guid(6d9f5fb6855ea5f45abfe0b211851ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/heart.png using Guid(6d9f5fb6855ea5f45abfe0b211851ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd62849a662a0577df1323fc629d68e') in 0.036582 seconds 
+  Import took 0.041706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002033 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/arrow_right.png
+  artifactKey: Guid(01d7b388e7827ca45a56bd1b632ffde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/arrow_right.png using Guid(01d7b388e7827ca45a56bd1b632ffde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3daca9ca55aea4e628b6d3022b4ba45c') in 0.035492 seconds 
+  Import took 0.044438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/x.png
+  artifactKey: Guid(321dfcc1c12d7cf42b0037754b1cdf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/x.png using Guid(321dfcc1c12d7cf42b0037754b1cdf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da89c2aab493040c7433ffce7c355bba') in 0.041265 seconds 
+  Import took 0.047539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/speaker.png
+  artifactKey: Guid(a8bf463d0bcbdd440b693618eccf4027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/speaker.png using Guid(a8bf463d0bcbdd440b693618eccf4027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7585162c449742a74c4824ff8946ed41') in 0.040201 seconds 
+  Import took 0.046393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/user.png
+  artifactKey: Guid(3b902f226593c084fba20ed761508616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/user.png using Guid(3b902f226593c084fba20ed761508616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062809f82bec877483e807e3837dfbb3') in 0.035509 seconds 
+  Import took 0.039334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/help.png
+  artifactKey: Guid(ee454173d02e05a4f8c74cc6e92fa5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/help.png using Guid(ee454173d02e05a4f8c74cc6e92fa5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a654cf8129f4f034900df9e22fa79360') in 0.038531 seconds 
+  Import took 0.043675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/plus.png
+  artifactKey: Guid(c1d5c0c9c2ed348448cf389548c36f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/plus.png using Guid(c1d5c0c9c2ed348448cf389548c36f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96df5b5742e65e13319d1d5faba6c31f') in 0.037842 seconds 
+  Import took 0.045670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/menu.png
+  artifactKey: Guid(ec694ac45cee4c34a93f4caf3ab4f155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/menu.png using Guid(ec694ac45cee4c34a93f4caf3ab4f155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f687bfd9072a0bebe275efafe19e1c6a') in 0.036623 seconds 
+  Import took 0.042888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/share.png
+  artifactKey: Guid(0c3c788016f06db4fa4c39433fe3af6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/share.png using Guid(0c3c788016f06db4fa4c39433fe3af6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb264868d841f7cd19d184ffcf2be5df') in 0.044587 seconds 
+  Import took 0.049603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/play.png
+  artifactKey: Guid(adf19f966e0379040bb823cbe5375f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/play.png using Guid(adf19f966e0379040bb823cbe5375f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11827e75e53901805bb3e4a7075c3be') in 0.041306 seconds 
+  Import took 0.047251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/128x128/pause.png
+  artifactKey: Guid(b148167244e305a42b332c5e3103a0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/128x128/pause.png using Guid(b148167244e305a42b332c5e3103a0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76336f42bf970f5bc249f08347cbcaf0') in 0.042116 seconds 
+  Import took 0.049604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 231.760619 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64
+  artifactKey: Guid(fa0b478971d50984a937603d9b5f6196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64 using Guid(fa0b478971d50984a937603d9b5f6196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814936904428787ffd7717ac8b7f6c3a') in 0.019733 seconds 
+  Import took 0.027994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088420 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/arrow_down.png
+  artifactKey: Guid(9c3d15adfbc21d64683a6553e1330d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/arrow_down.png using Guid(9c3d15adfbc21d64683a6553e1330d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8234545fba45c40f271d374d2748b4') in 0.040718 seconds 
+  Import took 0.050787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/heart.png
+  artifactKey: Guid(8082c022c1e0e004c983dda20809df59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/heart.png using Guid(8082c022c1e0e004c983dda20809df59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f09d988f1884fcdfbf45ff306734abd') in 0.030900 seconds 
+  Import took 0.035221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/speaker.png
+  artifactKey: Guid(2f01ca04470c3934a848ba73884b019a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/speaker.png using Guid(2f01ca04470c3934a848ba73884b019a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b704e388b99af20dd990d2d4db4fdcb') in 0.031599 seconds 
+  Import took 0.038908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/help.png
+  artifactKey: Guid(8143f852c3cbb53489177bce8ed0d104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/help.png using Guid(8143f852c3cbb53489177bce8ed0d104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791bc229b4640f91131ad9ad269bd25c') in 0.033247 seconds 
+  Import took 0.038584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/x.png
+  artifactKey: Guid(f83e9462d8dbe654b9dc1ea2294dba0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/x.png using Guid(f83e9462d8dbe654b9dc1ea2294dba0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61db2b3c003f37a634b4fc34d3fdcd13') in 0.040963 seconds 
+  Import took 0.047667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/repeat.png
+  artifactKey: Guid(ea998e3294889624985351560923ba0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/repeat.png using Guid(ea998e3294889624985351560923ba0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1522c35cd2e6da009a501c27e9c85480') in 0.031553 seconds 
+  Import took 0.036124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/user.png
+  artifactKey: Guid(ca09d89e4979d814d87dd1e020aa41e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/user.png using Guid(ca09d89e4979d814d87dd1e020aa41e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e597bbbdb2cdbfcae2bf3dac696143ce') in 0.031092 seconds 
+  Import took 0.036344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000686 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/arrow_left.png
+  artifactKey: Guid(8b93523f32be16548bf56b5a6db4fefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/arrow_left.png using Guid(8b93523f32be16548bf56b5a6db4fefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3778bb49f07bd6088a5376cbe4a10e6e') in 0.032126 seconds 
+  Import took 0.039255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/menu.png
+  artifactKey: Guid(eae15a34ba5cbdd40accbe87e85f2c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/menu.png using Guid(eae15a34ba5cbdd40accbe87e85f2c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7c3bc1d53a799315fd33a34d5a8f5c') in 0.033826 seconds 
+  Import took 0.038977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/message.png
+  artifactKey: Guid(c9c5499f2f571d14381f63343c1fdba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/message.png using Guid(c9c5499f2f571d14381f63343c1fdba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270c6bacdfb259c49196839dee5ce3c4') in 0.031848 seconds 
+  Import took 0.036938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/arrow_up.png
+  artifactKey: Guid(632776cb97988674c8daa001a86108a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/arrow_up.png using Guid(632776cb97988674c8daa001a86108a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e9ee85454fb1aa259bcebcf698110c') in 0.030171 seconds 
+  Import took 0.037139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000990 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/play.png
+  artifactKey: Guid(a2f31c578b2fbc1469b71626553cc735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/play.png using Guid(a2f31c578b2fbc1469b71626553cc735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d88abdcc9dac8b9de3dbb6af0a3f433') in 0.031420 seconds 
+  Import took 0.037046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/plus.png
+  artifactKey: Guid(8eae9b570f1669645b57010213c6d893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/plus.png using Guid(8eae9b570f1669645b57010213c6d893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2e8e4bc23d741eccd86e085b5fe6c8') in 0.028938 seconds 
+  Import took 0.036503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000688 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/checkmark.png
+  artifactKey: Guid(a1b36335edc21804d8483d19058e387c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/checkmark.png using Guid(a1b36335edc21804d8483d19058e387c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8332d53e06993b597e695acbb487865a') in 0.036572 seconds 
+  Import took 0.042868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/pause.png
+  artifactKey: Guid(75c6c57e72a33de42bcf6efefad9c957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/pause.png using Guid(75c6c57e72a33de42bcf6efefad9c957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5470fffe2d282963d7691f0176b9b738') in 0.030383 seconds 
+  Import took 0.034934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/star.png
+  artifactKey: Guid(2d2d75d383dae9b40b9b53a931127253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/star.png using Guid(2d2d75d383dae9b40b9b53a931127253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e24b5986d8bc6b5036a2d1cfe5c022') in 0.035733 seconds 
+  Import took 0.041017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/share.png
+  artifactKey: Guid(3f6cfdbb06013874db300a068be370b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/share.png using Guid(3f6cfdbb06013874db300a068be370b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7588b5fbd1c0bc87923960435318c3cc') in 0.031544 seconds 
+  Import took 0.039105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/TWD/FreeButtonSet/Textures/icons/64x64/arrow_right.png
+  artifactKey: Guid(8f85d8ce213015144a117d359c69fcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TWD/FreeButtonSet/Textures/icons/64x64/arrow_right.png using Guid(8f85d8ce213015144a117d359c69fcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92687b7fd3dfa4bd6824201ff33a2a93') in 0.031070 seconds 
+  Import took 0.036564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59356.997579 seconds.
+  path: Assets/Scenes/FirstMode.unity
+  artifactKey: Guid(9e9bd77e177b9834e9d2b145bb2805da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/FirstMode.unity using Guid(9e9bd77e177b9834e9d2b145bb2805da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef76ede5767b115e189a419420579ff') in 0.139940 seconds 
+  Import took 0.268871 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
