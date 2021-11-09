@@ -17,6 +17,9 @@ public class PlayerControl : MonoBehaviour
     private void Move()
     {
         Vector3 MotionInput = transform.rotation * new Vector3(Handle.localPosition.x, 0, Handle.localPosition.y) * power;
-        rbody.AddForce(MotionInput, ForceMode.VelocityChange);
+        if (MotionInput != new Vector3(0, 0, 0))
+        {
+            rbody.AddForce(MotionInput, ForceMode.VelocityChange);
+        }
     }
 }
