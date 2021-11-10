@@ -11426,11 +11426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1578450337}
-  Camera: {fileID: 1413830372}
-  mouse_x: 20
-  mouse_y: 15
-  max_angle: 20
-  min_angle: -20
+  mouse_x: 10
 --- !u!1 &1683879254
 GameObject:
   m_ObjectHideFlags: 0
