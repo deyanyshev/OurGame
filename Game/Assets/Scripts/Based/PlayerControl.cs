@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
-    public float power = 1;
+    public AnimatorController anim;
+    public float powerForward, powerBack, powerLR, power;
     private Rigidbody rbody;
     public Transform Handle;
 
@@ -16,7 +17,12 @@ public class PlayerControl : MonoBehaviour
 
     private void Move()
     {
-        Vector3 MotionInput = transform.rotation * new Vector3(Handle.localPosition.x, 0, Handle.localPosition.y) * power;
+        Vector3 MotionInput = transform.rotation * new Vector3(Handle.localPosition.x * powerLR, 0, Handle.localPosition.y) * power;
+
+        if (MotionInput.z <= 0) MotionInput.z *= powerBack;
+        else MotionInput.z *= powerForward;
+
         rbody.velocity = MotionInput;
+        anim.ChooseAnimation(Handle.localPosition.x, Handle.localPosition.y);
     }
 }
