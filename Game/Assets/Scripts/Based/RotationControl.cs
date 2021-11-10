@@ -5,10 +5,9 @@ using UnityEngine.EventSystems;
 
 public class RotationControl : MonoBehaviour, IDragHandler, IBeginDragHandler
 {
-    public Transform Player, Camera;
-    public float mouse_x = 10, mouse_y = 10, max_angle = 20, min_angle = -20;
+    public Transform Player;
+    public float mouse_x = 10;
 
-    private float angle = 0;
 
     private void ChangeRotation(PointerEventData eventData)
     {
