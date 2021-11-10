@@ -12,6 +12,7 @@ public class MoveOutWall : MonoBehaviour
     private void Start() 
     {
         rbody = GetComponent<Rigidbody>();
+        InvokeRepeating("addForce", 0, 0.3f);
         spawn();
     }
 
@@ -26,7 +27,14 @@ public class MoveOutWall : MonoBehaviour
 
     public void spawn()
     {
-        transform.position = new Vector3(Random.Range(-270, 0), 30, Random.Range(-150, 105));
-        rbody.AddForce(new Vector3(Random.Range(-power, power), -power_down, Random.Range(-power, power)), ForceMode.Impulse);
+        transform.position = new Vector3(Random.Range(-270, 0), 60, Random.Range(-150, 105));
+    }
+
+    void addForce()
+    {
+        if (transform.position.y >= -25)
+        {
+            rbody.AddForce(new Vector3(Random.Range(-1, 1), -power_down, Random.Range(-1, 1)) * power, ForceMode.Impulse);
+        }
     }
 }
