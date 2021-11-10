@@ -19,7 +19,7 @@ public class PlayerControl : MonoBehaviour
     {
         Vector3 MotionInput = transform.rotation * new Vector3(Handle.localPosition.x * powerLR, 0, Handle.localPosition.y) * power;
 
-        if (MotionInput.z <= 0) MotionInput.z *= powerBack;
+        if (Handle.localPosition.y <= 0) MotionInput.z *= powerBack;
         else MotionInput.z *= powerForward;
 
         rbody.velocity = MotionInput;
