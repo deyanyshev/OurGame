@@ -4,27 +4,37 @@ using UnityEngine;
 
 public class MoveOutWall : MonoBehaviour
 {
-
-    public int power_down = 1;
-    public int power = 2;
+    public float power_down = 2f, power = 4f;
     private Rigidbody rbody;
     public Collider player;
+    public AddPoints addPoints;
 
-    private void Start() {
-        
-        transform.position = new Vector3(Random.Range(-270, 0), 30, Random.Range(-150, 105));
+    private void Start() 
+    {
         rbody = GetComponent<Rigidbody>();
-        rbody.velocity = new Vector3(Random.Range(-power, power), -power_down, Random.Range(-power, power));
+        InvokeRepeating("addForce", 0, 0.3f);
+        spawn();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other == player)
+        if (other.tag == "Player")
         {
-            transform.position = new Vector3(Random.Range(-270, 0), 30, Random.Range(-150, 105));
-            transform.rotation = new Quaternion(0, 0, 0, 0);
-            rbody = GetComponent<Rigidbody>();
-            rbody.velocity = new Vector3(Random.Range(-power, power), -power_down, Random.Range(-power, power));
+            addPoints.addPoints();
+            spawn();
+        }
+    }
+
+    public void spawn()
+    {
+        transform.position = new Vector3(Random.Range(-270, 0), 60, Random.Range(-150, 105));
+    }
+
+    void addForce()
+    {
+        if (transform.position.y >= -25)
+        {
+            rbody.AddForce(new Vector3(Random.Range(-1, 1), -power_down, Random.Range(-1, 1)) * power, ForceMode.Impulse);
         }
     }
 }

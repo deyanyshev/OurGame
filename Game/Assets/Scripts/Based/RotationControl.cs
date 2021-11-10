@@ -14,9 +14,6 @@ public class RotationControl : MonoBehaviour, IDragHandler, IBeginDragHandler
     {
         var MouseInput = new Vector2(eventData.delta.x, eventData.delta.y);
         Player.transform.rotation *= Quaternion.Euler(0, MouseInput.x * mouse_x * Time.deltaTime, 0);
-
-        angle = Mathf.Clamp(angle - MouseInput.y * mouse_y * Time.deltaTime, -max_angle, -min_angle);
-        Camera.localRotation = Quaternion.Euler(angle, 0, 0);
     }
 
     public void OnBeginDrag(PointerEventData eventData)
