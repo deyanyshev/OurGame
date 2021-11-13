@@ -7,6 +7,7 @@ public class AddPoints : MonoBehaviour
 {
     public float points;
     public Text UIPoints;
+    public MoveUpCam moveUp;
 
     public void Update()
     {
@@ -15,6 +16,8 @@ public class AddPoints : MonoBehaviour
 
     public void addPoints()
     {
-        points += Random.Range(20, 100);
+        int newPoints = Random.Range(20, 100);
+        points += newPoints;
+        moveUp.moveUp(newPoints);
     }
 }
