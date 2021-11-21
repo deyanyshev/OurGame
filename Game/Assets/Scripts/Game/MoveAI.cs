@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEngine.AI;
-
+using UnityEngine.UI;
 public class MoveAI : MonoBehaviour
 {
+    public Text UIPoints;
 
     private Camera cam;
     private NavMeshAgent agent;
     private System.Collections.Generic.List<Vector3> list;
-
 
 
     void Start()
@@ -19,10 +19,7 @@ public class MoveAI : MonoBehaviour
         agent.SetDestination(new Vector3(-170, 0, -2));
     }
 
-    void Update()
-    {
-        
-    }
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Base")
@@ -32,9 +29,15 @@ public class MoveAI : MonoBehaviour
         else if (other.tag == "Base2")
         {
             agent.SetDestination(new Vector3(-170, 0, -2));
+            print(Points.points2);
+            Points.points2_base += Points.points2;
+            Points.points2 = 0;
+            UIPoints.text = Points.points2_base.ToString() + " :Δενόγθ";
         }
         else if (other.tag == "Player")
         {
+            Points.points1 += Points.points2;
+            Points.points2 = 0;
             transform.position = list[Random.Range(0, 3)];
             agent.SetDestination(new Vector3(-170, 0, -2));
         }

@@ -13,7 +13,7 @@ public class MoveOutWall : MonoBehaviour
     {
         rbody = GetComponent<Rigidbody>();
         InvokeRepeating("addForce", 0, 0.3f);
-        spawn();
+        //spawn();
     }
 
     private void OnTriggerEnter(Collider other)
