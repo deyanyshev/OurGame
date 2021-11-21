@@ -13,18 +13,23 @@ public class TouchBase : MonoBehaviour
 
     void Start()
     {
-        points = 0;
+        points = 100;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
-            print("touch"); 
             float new_Points = Points.removePoints();
             points += new_Points;
             UIPoints.text = "Δενόγθ: " + points.ToString();
             moveUp.moveDown(); 
+        }
+        else if (other.tag == "Enemy")
+        {
+            Points.points2 = points;
+            points = 0;
+            UIPoints.text = "Δενόγθ: " + points.ToString();
         }
     }
 } 

@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class AddPoints : MonoBehaviour
 {
     public float points;
+    public float points2;
+
     public Text UIPoints;
     public MoveUpCam moveUp;
 

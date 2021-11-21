@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Point
   - Barrel
+  - Enemy
+  - Base
+  - Base2
   layers:
   - Default
   - TransparentFX
