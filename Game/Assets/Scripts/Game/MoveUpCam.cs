@@ -21,11 +21,21 @@ public class MoveUpCam : MonoBehaviour
         {
             Camera.localPosition = new Vector3(Camera.localPosition.x, Camera.localPosition.y + k * speed * Time.deltaTime, Camera.localPosition.z - (1f / k) * speed * Time.deltaTime);
         }
+        else if (Camera.localPosition.z < nowCamera.z)
+        {
+            Camera.localPosition = new Vector3(Camera.localPosition.x, Camera.localPosition.y - k * speed * Time.deltaTime, Camera.localPosition.z + (1f / k) * speed * Time.deltaTime);
+        }
     }
 
     public void moveUp(int val)
     {
         nowCamera.y += k * val * camup;
         nowCamera.z -= (1f / k) * val * camup;
+    }
+
+    public void moveDown()
+    {
+        nowCamera.y = 5.42f;
+        nowCamera.z = -1.94f;
     }
 }

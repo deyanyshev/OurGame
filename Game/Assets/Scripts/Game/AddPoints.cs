@@ -20,4 +20,11 @@ public class AddPoints : MonoBehaviour
         points += newPoints;
         moveUp.moveUp(newPoints);
     }
+
+    public float removePoints()
+    {
+        float oldPoints = points;
+        points = 0;
+        return oldPoints;
+    }
 }
