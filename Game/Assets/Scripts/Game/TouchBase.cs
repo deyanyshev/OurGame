@@ -23,7 +23,6 @@ public class TouchBase : MonoBehaviour
             Points.points2 += Points.points1_base;
             Points.points1_base = 0;
             UIPoints.text = "Δενόγθ: " + Points.points1_base.ToString();
-            print(Points.points2);
         }
     }
 } 
