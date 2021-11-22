@@ -22,13 +22,13 @@ public class PlayerControl : MonoBehaviour
     private void Update()
     {
         var heading = transform.position - Player.transform.position;
-        if (heading.magnitude < 35)
+        if (heading.magnitude < agent.radius * 10 + 5)
         {
-            agent.enabled = false;
+            agent.radius = 1;
         }
         else
         {
-            agent.enabled = true;
+            agent.radius = 3;
         }
     }
     private void Move()
