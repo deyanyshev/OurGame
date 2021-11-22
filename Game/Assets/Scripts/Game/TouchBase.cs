@@ -16,7 +16,6 @@ public class TouchBase : MonoBehaviour
             Points.points1 = 0;
             Points.points1_base += new_Points;
             UIPoints.text = "Δενόγθ: " + Points.points1_base.ToString();
-            moveUp.moveDown(); 
         }
         else if (other.tag == "Enemy")
         {
