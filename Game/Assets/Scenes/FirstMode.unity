@@ -11954,7 +11954,7 @@ NavMeshObstacle:
   serializedVersion: 3
   m_Shape: 0
   m_Extents: {x: 3, y: 1, z: 3}
-  m_MoveThreshold: 3
+  m_MoveThreshold: 1
   m_Carve: 1
   m_CarveOnlyStationary: 0
   m_Center: {x: 0, y: 1, z: 0}
@@ -11993,6 +11993,7 @@ MonoBehaviour:
   powerLR: 0.65
   power: 0.25
   Handle: {fileID: 1632794166}
+  Player: {fileID: 1475065107}
 --- !u!65 &1578450341
 BoxCollider:
   m_ObjectHideFlags: 0

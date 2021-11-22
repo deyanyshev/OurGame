@@ -23,17 +23,9 @@ public class MoveAI : MonoBehaviour
         agent.angularSpeed = 180;
     }
 
-    private void Update()
-    {
-        var heading = transform.position - Player.transform.position;
-        if (heading.magnitude < 30)
-        {
-            //Debug.Log("Go out!");
-        }
-    }
-
 
     private void OnTriggerEnter(Collider other)
+
     {
         if (other.tag == "Base")
         {
