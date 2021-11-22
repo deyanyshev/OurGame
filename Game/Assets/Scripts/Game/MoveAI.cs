@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class MoveAI : MonoBehaviour
 {
     public Text UIPoints;
+    public GameObject Player;
 
     private Camera cam;
     private NavMeshAgent agent;
@@ -16,14 +17,22 @@ public class MoveAI : MonoBehaviour
     {
         list = new List<Vector3> { new Vector3(20, 0, -130), new Vector3(20, 0, 110), new Vector3(-215, 0, 125), new Vector3(-295, 0, 10) };
         cam = Camera.main;
-        //transform.position = list[Random.Range(0, 3)];
-        transform.position = new Vector3(-140, 0, 2);
+        transform.position = list[Random.Range(0, 3)];
         agent = GetComponent<NavMeshAgent>();
         agent.SetDestination(new Vector3(-170, 0, -2));
         agent.angularSpeed = 180;
     }
 
-    
+    private void Update()
+    {
+        var heading = transform.position - Player.transform.position;
+        if (heading.magnitude < 30)
+        {
+            //Debug.Log("Go out!");
+        }
+    }
+
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Base")
@@ -33,22 +42,27 @@ public class MoveAI : MonoBehaviour
             float dist2 = Getdist(list[1]);
             float dist3 = Getdist(list[2]);
             float dist4 = Getdist(list[3]);
-            
-            if (dist1 > dist2 && dist1 > dist3 && dist1 > dist4)
+
+            Debug.Log(dist1);
+            Debug.Log(dist2);
+            Debug.Log(dist3);
+            Debug.Log(dist4);
+
+            if (dist1 < dist2 && dist1 < dist3 && dist1 < dist4)
             {
-                agent.SetDestination(new Vector3(20, 0, -130));
+                agent.SetDestination(list[0]);
             }
-            else if (dist2 > dist1 && dist2 > dist3 && dist2 > dist4)
+            else if (dist2 < dist1 && dist2 < dist3 && dist2 < dist4)
             {
-                agent.SetDestination(new Vector3(20, 0, 110));
+                agent.SetDestination(list[1]);
             }
-            else if (dist3 > dist1 && dist3 > dist2 && dist3 > dist4)
+            else if (dist3 < dist1 && dist3 < dist2 && dist3 < dist4)
             {
-                agent.SetDestination(new Vector3(-215, 0, 125));
+                agent.SetDestination(list[2]);
             }
-            else if (dist4 > dist1 && dist4 > dist2 && dist4 > dist3)
+            else if (dist4 < dist1 && dist4 < dist2 && dist4 < dist3)
             {
-                agent.SetDestination(new Vector3(295, 0, 10));
+                agent.SetDestination(list[3]);
             }
         }
         else if (other.tag == "Base2")
@@ -58,8 +72,9 @@ public class MoveAI : MonoBehaviour
             Points.points2 = 0;
             UIPoints.text = Points.points2_base.ToString() + " :Δενόγθ";
         }
-        else if (other.tag == "Player")
+        else if (other.tag == "Player" && other.GetType() == typeof(BoxCollider))
         {
+            Debug.Log(other.GetType());
             Points.points1 += Points.points2;
             Points.points2 = 0;
             transform.position = list[Random.Range(0, 3)];
