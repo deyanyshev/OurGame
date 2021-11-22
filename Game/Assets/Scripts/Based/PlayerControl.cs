@@ -22,7 +22,7 @@ public class PlayerControl : MonoBehaviour
     private void Update()
     {
         var heading = transform.position - Player.transform.position;
-        if (heading.magnitude < agent.radius * 10 + 5)
+        if (heading.magnitude < 35)
         {
             agent.radius = 1;
         }
