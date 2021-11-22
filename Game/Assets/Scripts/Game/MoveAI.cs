@@ -19,7 +19,7 @@ public class MoveAI : MonoBehaviour
         cam = Camera.main;
         transform.position = list[Random.Range(0, 3)];
         agent = GetComponent<NavMeshAgent>();
-        agent.SetDestination(new Vector3(-170, 0, -2));
+        agent.SetDestination(new Vector3(-180, 0, -2));
         agent.angularSpeed = 180;
     }
 
@@ -70,7 +70,7 @@ public class MoveAI : MonoBehaviour
             Points.points1 += Points.points2;
             Points.points2 = 0;
             transform.position = list[Random.Range(0, 3)];
-            agent.SetDestination(new Vector3(-170, 0, -2));
+            agent.SetDestination(new Vector3(-180, 0, -2));
         }
     }
 
