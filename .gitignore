@@ -39,3 +39,5 @@ sysinfo.txt
 *.log
 Game/Logs/AssetImportWorker0-prev.log
 Game/Logs/AssetImportWorker0.log
+Game/Logs/AssetImportWorker0.log
+Game/Logs/shadercompiler-AssetImportWorker0.log

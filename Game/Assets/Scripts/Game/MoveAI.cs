@@ -15,9 +15,11 @@ public class MoveAI : MonoBehaviour
 
     void Start()
     {
-        list = new List<Vector3> { new Vector3(20, 0, -130), new Vector3(20, 0, 110), new Vector3(-215, 0, 125), new Vector3(-295, 0, 10) };
+        list = new List<Vector3> { new Vector3(20, 3, -130), new Vector3(20, 3, 110), new Vector3(-215, 3, 125), new Vector3(-295, 3, 10) };
         cam = Camera.main;
-        transform.position = list[Random.Range(0, 3)];
+        Vector3 v = list[Random.Range(0, 3)];
+        Debug.Log(v);
+        transform.position = v;
         agent = GetComponent<NavMeshAgent>();
         agent.SetDestination(new Vector3(-180, 0, -2));
         agent.angularSpeed = 180;
@@ -34,11 +36,6 @@ public class MoveAI : MonoBehaviour
             float dist2 = Getdist(list[1]);
             float dist3 = Getdist(list[2]);
             float dist4 = Getdist(list[3]);
-
-            Debug.Log(dist1);
-            Debug.Log(dist2);
-            Debug.Log(dist3);
-            Debug.Log(dist4);
 
             if (dist1 < dist2 && dist1 < dist3 && dist1 < dist4)
             {
@@ -66,7 +63,6 @@ public class MoveAI : MonoBehaviour
         }
         else if (other.tag == "Player" && other.GetType() == typeof(BoxCollider))
         {
-            Debug.Log(other.GetType());
             Points.points1 += Points.points2;
             Points.points2 = 0;
             transform.position = list[Random.Range(0, 3)];
