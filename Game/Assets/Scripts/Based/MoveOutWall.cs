@@ -32,6 +32,11 @@ public class MoveOutWall : MonoBehaviour
 
     void addForce()
     {
+        if (transform.position.x <= -300 || transform.position.x >= 30 || transform.position.z <= -170 || transform.position.z >= 130)
+        {
+            spawn();
+        }
+
         if (transform.localPosition.y >= -25)
         {
             rbody.AddForce(new Vector3(Random.Range(-1, 1), -power_down, Random.Range(-1, 1)) * power, ForceMode.Impulse);
