@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class Points
+public class Points : MonoBehaviour
 {
 
     public static float points1 = 0;

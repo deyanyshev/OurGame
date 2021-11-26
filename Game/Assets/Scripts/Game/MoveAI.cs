@@ -12,10 +12,12 @@ public class MoveAI : MonoBehaviour
     private NavMeshAgent agent;
     private List<Vector3> list;
     private Vector3 pos;
+    private bool status; // Он идёт к себе на базу или на чужую
 
 
     void Start()
     {
+        status = true;
         list = new List<Vector3> { new Vector3(20, 3, -130), new Vector3(20, 3, 110), new Vector3(-215, 3, 125), new Vector3(-295, 3, 10) };
         cam = Camera.main;
         Vector3 v = list[Random.Range(0, 3)];
@@ -28,7 +30,7 @@ public class MoveAI : MonoBehaviour
 
     void Update()
     {
-        if (!agent.hasPath)
+        if (!agent.hasPath && !status)
         {
             float dist1 = Getdist(list[0]);
             float dist2 = Getdist(list[1]);
@@ -67,6 +69,7 @@ public class MoveAI : MonoBehaviour
             float dist3 = Getdist(list[2]);
             float dist4 = Getdist(list[3]);
             GoBase(dist1, dist2, dist3, dist4);
+            status = false;
         }
         else if (other.tag == "Base2")
         {
@@ -74,6 +77,7 @@ public class MoveAI : MonoBehaviour
             Points.points2_base += Points.points2;
             Points.points2 = 0;
             UIPoints.text = Points.points2_base.ToString() + " :Деньги";
+            status = true;
         }
         else if (other.tag == "Player" && other.GetType() == typeof(BoxCollider))
         {
@@ -81,6 +85,7 @@ public class MoveAI : MonoBehaviour
             Points.points2 = 0;
             transform.position = list[Random.Range(0, 3)];
             agent.SetDestination(new Vector3(-180, 0, -2));
+            status = true;
         }
     }
 
