@@ -22,7 +22,7 @@ public class PlayerControl : MonoBehaviour
     private void Update()
     {
         var heading = transform.position - Player.transform.position;
-        if (heading.magnitude < 35)
+        if (heading.magnitude < 33)
         {
             agent.enabled = false;
         }

@@ -13,11 +13,13 @@ public class MoveAI : MonoBehaviour
     private List<Vector3> list;
     private Vector3 pos;
     private bool status; // Он идёт к себе на базу или на чужую
-
+    private float tps;
+    private float len_path;
 
     void Start()
     {
         status = true;
+        tps = 0;
         list = new List<Vector3> { new Vector3(20, 3, -130), new Vector3(20, 3, 110), new Vector3(-215, 3, 125), new Vector3(-295, 3, 10) };
         cam = Camera.main;
         Vector3 v = list[Random.Range(0, 3)];
@@ -25,11 +27,37 @@ public class MoveAI : MonoBehaviour
         transform.position = v;
         agent = GetComponent<NavMeshAgent>();
         agent.SetDestination(new Vector3(-180, 0, -2));
+        len_path = Getdist(new Vector3(-180, 0, -2));
         agent.angularSpeed = 180;
     }
 
     void Update()
     {
+        ++tps;
+        len_path -= (agent.speed / 1000);
+        if (tps > 1000)
+        {
+            if (status)
+            {
+                tps = 0;
+                float new_dist = Getdist(new Vector3(-180, 0, -2));
+                NavMeshPath path = agent.path;
+                float old_dist = 0;
+                for (int i = 1; i < path.corners.Length; ++i)
+                {
+                    old_dist += Vector3.Distance(path.corners[i - 1], path.corners[i]);
+                }
+                if (old_dist == 0)
+                {
+                    old_dist = len_path;
+                }
+                if (new_dist < old_dist)
+                {
+                    agent.SetDestination(new Vector3(-180, 0, -2));
+                }
+            }
+
+        }
         if (!agent.hasPath && !status)
         {
             float dist1 = Getdist(list[0]);
@@ -78,6 +106,7 @@ public class MoveAI : MonoBehaviour
             Points.points2 = 0;
             UIPoints.text = Points.points2_base.ToString() + " :Деньги";
             status = true;
+            len_path = Getdist(new Vector3(-180, 0, -2));
         }
         else if (other.tag == "Player" && other.GetType() == typeof(BoxCollider))
         {
@@ -85,6 +114,7 @@ public class MoveAI : MonoBehaviour
             Points.points2 = 0;
             transform.position = list[Random.Range(0, 3)];
             agent.SetDestination(new Vector3(-180, 0, -2));
+            len_path = Getdist(new Vector3(-180, 0, -2));
             status = true;
         }
     }
@@ -124,6 +154,6 @@ public class MoveAI : MonoBehaviour
             agent.SetDestination(list[3]);
             pos = list[3];
         }
-        Debug.Log(pos);
+        len_path = Getdist(pos);
     }
 }
