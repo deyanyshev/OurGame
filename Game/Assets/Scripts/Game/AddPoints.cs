@@ -13,14 +13,21 @@ public class AddPoints : MonoBehaviour
 
     public void Update()
     {
-        UIPoints.text = "Мана: " + Points.points1.ToString();
+        UIPoints.text = "Мана: " + Points.points1.ToString() + " / " + Points.max_point1;
     }
 
     public void addPoints()
     {
         int newPoints = Random.Range(20, 100);
         Points.points1 += newPoints;
-        moveUp.moveUp(newPoints);
+        if (Points.points1 > Points.max_point1)
+        {
+            Points.points1 = Points.max_point1;
+        }
+        else
+        {
+            moveUp.moveUp((int)Points.points1);
+        }
     }
 
 }

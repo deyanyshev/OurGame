@@ -35,7 +35,7 @@ public class MoveAI : MonoBehaviour
     {
         ++tps;
         len_path -= (agent.speed / 1000);
-        if (tps > 1000)
+        if (tps > 100)
         {
             if (status)
             {
