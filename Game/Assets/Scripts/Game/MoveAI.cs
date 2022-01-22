@@ -35,7 +35,7 @@ public class MoveAI : MonoBehaviour
     {
         ++tps;
         len_path -= (agent.speed / 1000);
-        if (tps > 100)
+        if (tps > 50)
         {
             if (status)
             {
@@ -116,6 +116,7 @@ public class MoveAI : MonoBehaviour
             agent.SetDestination(new Vector3(-180, 0, -2));
             len_path = Getdist(new Vector3(-180, 0, -2));
             status = true;
+            Debug.Log(Points.points1);
         }
     }
 
