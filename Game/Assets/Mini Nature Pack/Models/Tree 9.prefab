@@ -465,12 +465,12 @@ MonoBehaviour:
     nodeIDs: 02000000
     parentGroupID: -1
     childGroupIDs: 03000000
-    adaptiveLODQuality: 0.2
+    adaptiveLODQuality: 0.3
     shadowTextureQuality: 3
     enableWelding: 1
     enableAmbientOcclusion: 1
     enableMaterialOptimize: 1
-    aoDensity: 0.3
+    aoDensity: 0.4
     rootSpread: 5
     groundOffset: 0
     rootMatrix:
