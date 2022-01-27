@@ -18,7 +18,7 @@ public class TouchBase : MonoBehaviour
 
             Debug.Log(Points.points1_base);
         }
-        else if (other.tag == "Enemy")
+        else if (other.tag == "Enemy" && Points.points2 == 0)
         {
             if (Points.points1_base >= Points.max_point2)
             {
